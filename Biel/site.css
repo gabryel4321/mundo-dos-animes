@@ -1,0 +1,19 @@
+p{
+    font-size: 45PX;
+    color: rgb(160, 223, 212);
+    text-aling: center;
+}
+h1{
+    color: rgba(38, 235, 225, 0.753);
+    text-aling: center;
+    font-size: 80px;
+}
+
+body{
+    background-color: hsl(0, 0%, 0%);
+
+    }
+
+    .principal{
+         color: rgb(225, 226, 130);
+    }
