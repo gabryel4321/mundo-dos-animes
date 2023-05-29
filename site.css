@@ -1,6 +1,6 @@
 p{
     font-size: 45PX;
-    color: rgb(160, 223, 212);
+    color: rgb(255, 255, 255);
     text-aling: center;
 }
 h1{
@@ -10,8 +10,8 @@ h1{
 }
 
 body{
-    background-color: hsl(0, 0%, 0%);
-
+    background: rgb(8,101,102);
+    background: linear-gradient(0deg, rgba(8,101,102,1) 0%, rgba(2,35,68,1) 100%); 
     }
 
     .principal{
