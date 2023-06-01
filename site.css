@@ -1,19 +1,16 @@
 p{
     font-size: 45PX;
-    color: rgb(255, 255, 255);
+    color: rgb(10, 207, 181);
     text-aling: center;
 }
 h1{
     color: rgba(38, 235, 225, 0.753);
-    text-aling: center;
+    text: center;
     font-size: 80px;
 }
 
 body{
-    background: rgb(8,101,102);
-    background: linear-gradient(0deg, rgba(8,101,102,1) 0%, rgba(2,35,68,1) 100%); 
-    }
+    background-image: url("boku\ no\ hero\ fundo.jpg"); 
+  
 
-    .principal{
-         color: rgb(225, 226, 130);
-    }
+}
