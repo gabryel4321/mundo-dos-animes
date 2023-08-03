@@ -1,16 +1,124 @@
+body{
+  background: linear-gradient(0, #120c56, #000000);
+}
+
 p{
     font-size: 45PX;
-    color: rgb(10, 207, 181);
-    text-aling: center;
+    color: rgb(177, 255, 251);
+    
 }
 h1{
-    color: rgba(38, 235, 225, 0.753);
-    text: center;
+    color: rgba(67, 223, 215, 0.753);
+    text-align: center;
     font-size: 80px;
 }
 
-body{
-    background-image: url("boku\ no\ hero\ fundo.jpg"); 
+main{
+    margin: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-weight: 400px;
+}
+
+  * {
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  }
+ 
+  .container{
+    width: 1050px;
+  }  
+  .stars{
+	width: 5px;
+	height: 3px;
+	border-radius: 500%;
+}
+.stars{
+	width: 3px;
+	height: 2px;
+	border-radius: 100%;
+	box-shadow: 50px 30px rgba(177, 129, 255, 0.432),
+    100px 80px rgb(81, 53, 107),
+    80px 120px rgb(67, 41, 100),
+    300px 20px rgb(91, 50, 104),
+    250px 130px rgba(224, 69, 255, 0.541),
+    200px 50px rgba(226, 82, 255, 0.459),
+    150px 100px rgba(214, 81, 255, 0.384),
+    320px 100px white;
+}
+  @keyframes anim-stars {
+
+0%
+{
+
+        transform: translateY(1600vh) scale(6.0); 
+ }
+ 100%
+{
+        transform: translateY(-0.5vh) scale(6.0);
+    }
+}
+
+.stars{
+	animation: anim-stars 35s linear infinite;
+  
+}
+.stars::after{
+    content: " ";
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white,
+      100px 80px white,
+      80px 120px white,
+      300px 20px white, scale(0.5)
+      320px 100px white;
+  }
+  .stars::after{
+    content: " ";
+    position: absolute;
+    top: 300px;
+    width: 5px;
+  }
+  .stars2{
+    position: relative;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 15px 15px white,
+      125px 35px white,
+      50px 80px white,
+      10px 120px white,
+      275px 90px white, scale(0.5)
+      230px 10px white,
+      120px 130px white,
+      300px 130px white,
+      220px 115px white;
+    animation: anim-stars 15s linear infinite;
+  }
+  
+  .stars2::after{
+    content: " ";
+    position: absolute;
+    top: 400px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    box-shadow: 75px 75px white,
+      125px 35px white,
+      50px 80px white,
+      10px 120px white,
+      275px 90px white,
+      230px 10px white,
+      120px 130px white,
+      300px 130px white,
+      220px 115px white;
+  }
+  
   
 
-}
+
+
+/* aqui termina animação das estrelas*/
